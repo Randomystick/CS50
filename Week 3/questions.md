@@ -65,7 +65,7 @@ Since each time fread() is called only one header is read in (bf/bi), nmemb is 1
 
 ## What value does `copy.c` assign to `padding` if `bi.biWidth` is `3`?
 
-RGBTRIPLE = ¡°encapsulates¡± three bytes: one blue, one green, and one red
+RGBTRIPLE = Â¡Â°encapsulatesÂ¡Â± three bytes: one blue, one green, and one red
 padding = (4 - (bi.biWidth * sizeof(RGBTRIPLE)) % 4) % 4
         = (4 - (3 * 3) % 4 ) % 4
         = 3
