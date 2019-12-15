@@ -8,12 +8,14 @@
 // Solution: Add *3 to line 126 (int lineLengthInBytes = (biTwo.biWidth*3) + paddingTwo;)
 // Problem: Defining lineStorage as a string, then not adding the null terminating character for it to be considered a string.
 // Solution: Add and remove the null terminating character on lineStorage during the transfer.
-// Problem: As it turns out you cannot insert data into a stream, only overwrite it. This makes doing vertical scaling - and by extension doing horizontal scaling then
-// vertical scaling sequentially - prohibitively complicated to do, so a major rewrite is in order. Big oof
+// Problem: As it turns out you cannot insert data into a stream, only overwrite it. This makes doing vertical scaling 
+// - and by extension doing horizontal scaling then vertical scaling sequentially - prohibitively complicated to do, 
+// so a major rewrite is in order. Big oof
 // Problem: outfile was opened as write only.
 // Solution: open as write+read
 
-// 16-Dec-19: Used different methodology - instead of copy pasting within outfile, manipulate loops to do vertical scaling via horizontal scaling
+// 16-Dec-19: Used different methodology - instead of copy pasting within outfile, 
+// manipulate loops to do vertical scaling via horizontal scaling
 // since vertical scaling is essentially doing horizontal scaling on a different row.
 // USE PSEUDOCODE PLEASE IT MAKES EVERYTHING SO MUCH EASIER TO VISUALISE and abstract all the implementation details away
 
