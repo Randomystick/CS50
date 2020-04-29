@@ -1,2 +1,2 @@
 # CS50
-Languages: C, Scratch || Date created: Jul 2019
+Intro to Computer Science Course by Harvard University. Languages: C, Scratch || Date created: Jul 2019
